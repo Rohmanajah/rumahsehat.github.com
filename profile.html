@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Rumah Sehat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="wrapper">
+            <div class="logo"><a href="index.html">Rumah Sehat</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="#profile">Profil</a></li>
+                    <li><a href="settings.html">Pengaturan</a></li>
+                    <li><a href="logout.html" class="tbl-biru">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="wrapper">
+            <!-- Profil Pengguna -->
+            <section id="profile">
+                <h2>Profil Pengguna</h2>
+                
+                <!-- Informasi Profil -->
+                <div class="widget">
+                    <h3>Informasi Profil</h3>
+                    <div class="profile-info">
+                        <p><strong>Nama:</strong></p>
+                        <p><strong>Email:</strong></p>
+                        <p><strong>Telepon:</strong></p>
+                    </div>
+                </div>
+
+                <!-- Form Pembaruan Profil -->
+                <div class="widget">
+                    <h3>Perbarui Profil</h3>
+                    <form action="#" method="post">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" value="User Name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" value="user@example.com" required>
+                        
+                        <label for="phone">Telepon:</label>
+                        <input type="tel" id="phone" name="phone" value="+62 123 4567 890" required>
+                        
+                        <button type="submit">Perbarui Profil</button>
+                    </form>
+                </div>
+
+                <!-- Pengaturan Akun -->
+                <div class="widget">
+                    <h3>Pengaturan Akun</h3>
+                    <ul>
+                        <li><a href="change-password.html">Ubah Password</a></li>
+                        <li><a href="delete-account.html" class="tbl-biru">Hapus Akun</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="wrapper">
+            <p>&copy; 2024 Rumah Sehat. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
